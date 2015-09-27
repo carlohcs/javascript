@@ -1,0 +1,19 @@
+{
+    "name": "carlohcs/javascript",
+    "description": "A pack with a lot of JavaScript things for PHP.",
+    "license": "MIT",
+    "keywords": ["carlohcs", "javascript", "packpage", "pack", "bootstrap", "bootstrap helpers"],
+    "authors": [
+        {
+            "name": "Carlos Henrique Carvalho de Santana",
+            "email": "carlohcs@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Carlohcs\\JavaScript\\": "src"
+        }
+    }
+}
