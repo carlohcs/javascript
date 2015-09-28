@@ -31,3 +31,4 @@ This scripts is not necessary to general purposes, but, is necessary if you will
 
 - [Alert](https://github.com/carlohcs/javascript/tree/master/src/Alert/README.md)
 - [Popover](https://github.com/carlohcs/javascript/tree/master/src/Popover/README.md)
+- [Tour](https://github.com/carlohcs/javascript/tree/master/src/Tour/README.md)
