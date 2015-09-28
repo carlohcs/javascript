@@ -1,10 +1,11 @@
 <?php
 	
-	//Just for test. Change this inclues to 
-	//include 'vendor/autoload.php';
-	include '../AlertInterface.php';
-	include '../BootstrapAlert.php';
-	include '../AlertStrategy.php';
+	//Files necessarys, but, prefer load with composer autoload.php
+	//include '../AlertInterface.php';
+	//include '../BootstrapAlert.php';
+	//include '../AlertStrategy.php';
+
+	require __DIR__.'/../../../vendor/autoload.php';
 
 	//Use class
 	use Carlohcs\JavaScript\Alert\AlertStrategy;
@@ -13,6 +14,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
+		<title>Alerts Examples</title>
 
 		<!-- Bootstrap -->
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
@@ -37,8 +39,6 @@
 			<h4>Is just necessary CSS files.</h4>
 
 			<h4>If you not use the close button, doesn't necessary the scripts.</h4>
-
-			<div class="">
 	
 			<div class="row">
 
@@ -312,10 +312,6 @@
 					</div>
 
 				</div>
-
-			</div>
-
-			</div>
 
 			</div>
 

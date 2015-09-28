@@ -132,13 +132,13 @@
 		}
 
 		/**
-		 * Define e executa as dependências que necessita para funcionar
+		 * Set dependencies necessaries to create or run the component
 		 * @param  boolean|array $options
 		 * @deprecated
 		 */
-		public function runDependencyRender($options = false)
+		/*public function runDependencyRender($options = false)
 		{
-			/*echo "<style>
+			echo "<style>
 			.popover-fixed .popover {
 			  position: relative;
 			  display: block;
@@ -151,7 +151,7 @@
 			$(function(){
 				$('.popover-fixed').popover();
 			});
-			</script>";*/
-		}	
+			</script>";
+		}*/	
 
 	}
