@@ -9,7 +9,8 @@
 	 * @author  Carlos Henrique Carvalho de Santana <carlohcs@gmail.com>
 	 * @date 2014-08-04
 	 */
-	interface AlertInterface{
+	interface AlertInterface
+	{
 		
 		/**
 		 * Create the component
